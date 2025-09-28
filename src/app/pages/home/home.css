@@ -1,0 +1,111 @@
+.homeParent{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 8%;
+}
+
+.homeRole span {
+  border-right: 2px solid #ff4d4d;
+  animation: blinkCursor 0.7s steps(1) infinite;
+}
+
+.homeRole h1 {
+  width: 17ch; 
+  white-space: nowrap;
+  overflow: hidden; 
+  height: 1.2em;
+}
+
+.homeContact{
+    height: 30px;
+    width: 80px;
+}
+
+
+.homeContact li {
+    list-style: none;
+    margin-top: 10%;
+}
+
+.homeContact li img:hover {
+  transform: scale(1.5);
+   filter: drop-shadow(0 0 5px #3dd0cd); 
+}
+.homeContact li img {
+  transition: transform 0.25s ease;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.name{
+    font-size: 7rem;;
+}
+.role{
+    font-size: 7rem;
+}
+
+.homeProfileContent{
+    width: 70%;
+    word-wrap: break-word;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+}
+
+/* .homeProfileContent p {
+  font-weight: bold;
+  font-size: 4.2rem;
+  background: linear-gradient(270deg, #f1c4c4, #d16b04, #b8d0ca, #dbb50e);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+  animation: gradientShift 200s ease infinite;
+}
+.homeProfileContent span{
+    font-size: 5rem;
+    background: linear-gradient(270deg, #d68a06, #feca57, #10f4b7, #17e0ff);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+            background-clip: text;
+    animation: gradientShift 500s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+
+.homeProfileContent p {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: grey;
+}
+
+.homeProfileContent span {
+  font-weight: bold;
+  font-size: 3rem;
+  /* color: #2ac579; */
+  color: #816fed;
+}
+
+
+
+
+
+@keyframes blinkCursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
