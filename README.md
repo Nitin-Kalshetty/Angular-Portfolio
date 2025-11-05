@@ -33,7 +33,6 @@ To run this project locally, follow these steps:
 
 ### Steps
 
-```bash
 # Clone the repository
 git clone https://github.com/Nitin-Kalshetty/Angular-Portfolio.git
 
@@ -45,7 +44,9 @@ npm install
 
 # Run the development server
 ng serve
-Contributing
+
+### Contributing
+
 
 If you would like to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request.
 
