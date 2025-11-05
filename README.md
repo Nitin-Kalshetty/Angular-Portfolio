@@ -1,59 +1,52 @@
 # Portfolio
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
+# Angular Portfolio
 
-## Development server
+This is a personal portfolio website built using **Angular**. It showcases various projects, skills, and experiences, providing a clean and responsive design to present your professional work.
 
-To start a local development server, run:
+## Features
+
+- **Home Page**: A brief introduction to the portfolio with a welcome message.
+- **About Me**: Information about the developer, including background, skills, and achievements.
+- **Projects**: A collection of personal and professional projects with links, descriptions, and technologies used.
+- **Contact**: A contact form for reaching out to the developer.
+- **Responsive Design**: Optimized for all screen sizes, making it accessible on desktops, tablets, and mobile devices.
+- **Animations**: Smooth animations for interactive elements.
+
+## Tech Stack
+
+- **Angular**: Front-end framework for building dynamic and modern web applications.
+- **TypeScript**: A superset of JavaScript for better tooling and type safety.
+- **HTML/CSS**: For structuring and styling the website.
+- **Bootstrap**: For responsive design and layout.
+- **Firebase** (Optional): For hosting the website.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/download/) (v14 or higher)
+- [Angular CLI](https://angular.io/cli) (installed globally)
+
+### Steps
 
 ```bash
+# Clone the repository
+git clone https://github.com/Nitin-Kalshetty/Angular-Portfolio.git
+
+# Navigate to the project folder
+cd Angular-Portfolio
+
+# Install dependencies
+npm install
+
+# Run the development server
 ng serve
-```
+Contributing
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+If you would like to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Please ensure that your changes are well-tested and follow best practices for coding and design.
